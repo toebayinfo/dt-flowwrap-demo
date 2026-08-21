@@ -60,7 +60,7 @@ export default function Navbar({ page, navigate }: NavbarProps) {
             {/* Logo */}
             <button onClick={() => go("home")} className="shrink-0" aria-label="D.T Flow Wrap Machines — home">
               <img
-                src="/images/logo.png"
+                src="/dt-flowwrap-demo/images/logo.png"
                 alt="D.T Flow Wrap Machines — Pack anything beautifully"
                 className="h-10 sm:h-12 w-auto"
               />

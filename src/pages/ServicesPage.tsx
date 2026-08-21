@@ -70,7 +70,7 @@ export default function ServicesPage({ navigate }: PageProps) {
       {/* Training image band */}
       <section className="relative h-72 sm:h-96 overflow-hidden">
         <img
-          src="/images/service-training.png"
+          src="/dt-flowwrap-demo/images/service-training.png"
           alt="NordPack technician training operators at a machine HMI"
           loading="lazy"
           className="absolute inset-0 w-full h-full object-cover"

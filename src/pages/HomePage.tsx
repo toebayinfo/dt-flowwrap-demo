@@ -31,7 +31,7 @@ export default function HomePage({ navigate }: PageProps) {
       <section className="relative min-h-[92vh] flex items-end overflow-hidden bg-navy-950">
         {/* Static fallback image — also the video poster (loads instantly, covers reduced-motion) */}
         <img
-          src="/images/hero.png"
+          src="/dt-flowwrap-demo/images/hero.png"
           alt="Horizontal flow-wrap packaging machine running snack bars at full line rate"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -42,10 +42,10 @@ export default function HomePage({ navigate }: PageProps) {
           loop
           playsInline
           preload="metadata"
-          poster="/images/hero.png"
+          poster="/dt-flowwrap-demo/images/hero.png"
           aria-hidden="true"
         >
-          <source src="/videos/hero.mp4" type="video/mp4" />
+          <source src="/dt-flowwrap-demo/videos/hero.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/60 to-navy-950/30" />
         <div className="absolute inset-0 blueprint-grid opacity-50" />
@@ -279,7 +279,7 @@ export default function HomePage({ navigate }: PageProps) {
       {/* ============================= VIDEO TEASER ============================= */}
       <section className="relative py-20 sm:py-24 overflow-hidden">
         <img
-          src="/images/facility.png"
+          src="/dt-flowwrap-demo/images/facility.png"
           alt="NordPack showroom with packaging machines"
           loading="lazy"
           className="absolute inset-0 w-full h-full object-cover"

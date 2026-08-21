@@ -25,7 +25,7 @@ export default function Footer({ navigate }: FooterProps) {
         <div>
           <div className="inline-block bg-white rounded-lg px-4 py-3 mb-4">
             <img
-              src="/images/logo.png"
+              src="/dt-flowwrap-demo/images/logo.png"
               alt="D.T Flow Wrap Machines — Pack anything beautifully"
               className="h-11 w-auto"
             />
