@@ -26,7 +26,7 @@ export const products: Product[] = [
       en: "Our horizontal form-fill-seal wrappers run from compact entry models to 300-pack-per-minute servo platforms with automatic splicing, no-product-no-bag logic and full washdown options. Ideal when presentation and speed both matter.",
       fr: "Nos ensacheuses horizontales vont du modèle compact d'entrée de gamme jusqu'aux plateformes servo à 300 emballages/minute, avec raccord automatique, fonction « pas de produit, pas de sachet » et options de lavage intégral. Idéal quand présentation et cadence comptent autant l'une que l'autre.",
     },
-    image: "/dt-flowwrap-demo/images/product-flow-wrap.png",
+    image: "/dt-flowwrap-demo/images/product-flow-wrap.webp",
     speed: { value: "300", unit: { en: "packs/min", fr: "emb./min" } },
     models: ["T-250", "T-350", "T-400X", "T-450", "T-550", "DT-700X"],
     features: {
@@ -63,7 +63,7 @@ export const products: Product[] = [
       en: "Paired with multihead weighers, augers or volumetric cups, our VFFS platforms handle snacks, coffee, frozen foods and powders at up to 180 bags per minute, with gas flushing, zipper applicators and dust-tight options.",
       fr: "Combinées à des peseuses multitêtes, doseuses à vis ou godets volumétriques, nos plateformes VFFS traitent collations, café, surgelés et poudres jusqu'à 180 sachets/minute, avec injection de gaz, applicateurs de zip et options anti-poussière.",
     },
-    image: "/dt-flowwrap-demo/images/product-vffs.png",
+    image: "/dt-flowwrap-demo/images/product-vffs.webp",
     speed: { value: "180", unit: { en: "bags/min", fr: "sachets/min" } },
     models: ["V-160", "V-260", "V-S160", "VL-160", "VL-680", "LV-900"],
     features: {
@@ -100,7 +100,7 @@ export const products: Product[] = [
       en: "Film is where most lines lose uptime. Our roll film systems manage unwinding, tension, print registration and automatic splicing so your wrappers never starve — and we supply the films to match.",
       fr: "Le film est là où la plupart des lignes perdent en disponibilité. Nos systèmes de film en bobine gèrent déroulage, tension, repérage d'impression et raccord automatique pour que vos ensacheuses ne manquent jamais — et nous fournissons les films assortis.",
     },
-    image: "/dt-flowwrap-demo/images/product-roll-film.png",
+    image: "/dt-flowwrap-demo/images/product-roll-film.webp",
     speed: { value: "600", unit: { en: "mm film width", fr: "mm de largeur" } },
     features: {
       en: [
@@ -136,7 +136,7 @@ export const products: Product[] = [
       en: "Rotary pouch machines that open, fill and seal premade stand-up pouches with zipper detection, nitrogen flush and checkweigh feedback — perfect for coffee, snacks, pet treats and powders that need shelf presence.",
       fr: "Machines rotatives à pochette qui ouvrent, remplissent et scellent les sachets stand-up préformés, avec détection de zip, injection d'azote et rétroaction pondérale — parfait pour café, collations, gâteries pour animaux et poudres qui exigent un bel impact en rayon.",
     },
-    image: "/dt-flowwrap-demo/images/product-standup-bag.png",
+    image: "/dt-flowwrap-demo/images/product-standup-bag.webp",
     speed: { value: "80", unit: { en: "pouches/min", fr: "pochettes/min" } },
     models: ["POU-500V"],
     features: {
@@ -173,7 +173,7 @@ export const products: Product[] = [
       en: "From carton erecting and top-load robotic packing to wrap-around case packing and sealing, we design end-of-line systems that take your wrapped product all the way to the pallet.",
       fr: "Du formage de cartons à l'encaissage robotisé par le dessus, en passant par l'encaissage enveloppant et la fermeture, nous concevons des systèmes de fin de ligne qui mènent votre produit emballé jusqu'à la palette.",
     },
-    image: "/dt-flowwrap-demo/images/product-carton.png",
+    image: "/dt-flowwrap-demo/images/product-carton.webp",
     speed: { value: "30", unit: { en: "cases/min", fr: "caisses/min" } },
     models: ["M-285O"],
     features: {
@@ -210,7 +210,7 @@ export const products: Product[] = [
       en: "For products that sell on a peg, our carry card systems place, seal and code product on printed backing cards with euro-slot hang holes — from blister-style cards to paperboard wallets.",
       fr: "Pour les produits vendus sur broche, nos systèmes de cartes de présentation placent, scellent et codent le produit sur cartes imprimées avec trou européen — des cartes type blister aux emballages cartonnés.",
     },
-    image: "/dt-flowwrap-demo/images/product-carry-card.png",
+    image: "/dt-flowwrap-demo/images/product-carry-card.webp",
     speed: { value: "120", unit: { en: "cards/min", fr: "cartes/min" } },
     features: {
       en: [
